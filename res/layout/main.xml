@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView     
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="53"
+	    android:src="@drawable/main_title"
+	    android:background="@drawable/main_title_background"/>
+    
+	<RelativeLayout     
+	    android:id="@+id/main_root"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="427"
+	    android:background="@drawable/main_background_1"/>
+</LinearLayout>
